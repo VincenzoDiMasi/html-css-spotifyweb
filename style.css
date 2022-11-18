@@ -1,0 +1,84 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+main{
+    flex-grow: 1;
+    margin-top: 80px;
+    background-color: #141922;
+    overflow-y: scroll;
+
+}
+
+header{
+    height: 80px;
+    width: calc(100% - 150px);
+    background-color:rgba(26, 26, 26, 0.8);
+    text-align: end;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    height: 100px;
+    background-color: #282828;
+   }
+
+
+/* Utils */
+.flex {
+    display: flex;
+}
+
+
+
+/*Content */
+
+.content{
+    height: calc(100vh - 100px);
+}
+
+/* Sidebar */
+.sidebar{
+    height: 100%;
+    background-color: black;
+    flex-basis: 150px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+
+
+/* Main */
+.navbar {
+    background-color: rgb(20, 25, 34);
+}
+
+
+
+
+/* Header */
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+
+
