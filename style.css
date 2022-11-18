@@ -21,17 +21,28 @@ main{
 
 header{
     height: 80px;
-    width: calc(100% - 150px);
+    width: calc(100% - 230px);
     background-color:rgba(26, 26, 26, 0.8);
     text-align: end;
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 footer{
     height: 100px;
     background-color: #282828;
+   }
+
+   a {
+    text-decoration: none;
+    color: white;
+   }
+
+   li {
+    list-style: none;
+    margin-bottom: 10px;
    }
 
 
@@ -52,16 +63,51 @@ footer{
 .sidebar{
     height: 100%;
     background-color: black;
-    flex-basis: 150px;
+    flex-basis: 230px;
     flex-shrink: 0;
     flex-grow: 0;
+    color: white;
+    padding-left: 15PX;
 
 }
 
+#logo-sidebar {
+    padding: 15px 0;
+}
+
+#logo-sidebar img {
+    height: 45px;
+}
+
+#navbar-side ul {
+    margin-top: 10px;
+}
+
+#playlist h3 {
+    margin: 30px 0 15px 0;
+}
+
+
+#add {
+    font-size: 30px;
+    border: 1px solid rgb(104, 104, 104);
+    background-color: rgb(104, 104, 104);
+    padding: 0 10px;
+    margin-right: 5px;
+    
+}
+
+.add-playlist h4 {
+    align-self: center;
+}
+
+#playlist ul {
+    margin-top: 15px;
+}
 
 
 /* Main */
-.navbar {
+.main-view {
     background-color: rgb(20, 25, 34);
 }
 
@@ -69,7 +115,14 @@ footer{
 
 
 /* Header */
+header a {
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 28px;
 
+}
 
 
 
