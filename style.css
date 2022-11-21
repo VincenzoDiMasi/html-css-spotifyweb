@@ -27,11 +27,11 @@ header{
     position: sticky;
     top: 0;
     right: 0;
-    
+
 }
 
 footer{
-    height: 100px;
+    height: 80px;
     background-color: #282828;
    }
 
@@ -69,7 +69,7 @@ h5 {
 /*Content */
 
 .content{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
 }
 
 /* Sidebar */
@@ -113,7 +113,7 @@ h5 {
     padding: 0 10px;
     margin-right: 5px;
     color: black;
-    
+
 }
 
 .add-playlist h4 {
@@ -126,7 +126,7 @@ h5 {
 
 #sidebar-bottom {
     /* border: 1px dashed yellow; */
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .install {
@@ -189,6 +189,10 @@ header a {
 
 }
 
+.evidence {
+    border-bottom: 1px solid lime;
+}
+
 .row {
     flex-wrap: wrap;
 }
@@ -199,7 +203,7 @@ header a {
     min-height: 100px;
     margin-left: 5px;
     text-align: center;
-    
+
 }
 
 #create-for,#most-played {
@@ -235,20 +239,168 @@ header a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
+.col-small {
+    /* border: 1px dashed white; */
+    flex-basis: 255px;
+    height: 80px;
+}
+
+.col-large {
+    /* border: 1px dashed white; */
+    flex-basis: calc(100% - 460px);
+    height: 80px;
+
+
+}
+
+/* current song section */
+.current-song {
+    flex-basis: calc(100% / 3);
+    /* border: 1px dashed red; */
+    height: 80px;
+    color: rgb(70, 72, 79);
+
+}
+
+.current-song img {
+    height: 60px;
+    cursor: pointer;
+}
+
+.cover {
+    padding: 7px;
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.title h5 {
+    color: white;
+}
+
+.action {
+    padding: 20px 5px;
+    text-align: end;
+}
+
+.action a {
+    color: rgb(70, 72, 79);
+    margin-right: 5px;
+}
+
+.fa-heart:hover {
+    color: white;
+}
+
+.fa-folder:hover {
+    color: white;
+}
 
 
 
+/* Main player section */
+
+.bttn-player {
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 25px;
+}
+.bttn-player a {
+    font-size: 27px;
+    color: white;
+    margin-right: 30px;
+    height: 50%;
+}
+.load-player {
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    gap: 20px;
+}
+.load-player p {
+    color: white;
+    font-size: 10px;
+}
+.bar-footer {
+    height: 7px;
+    width: 40%;
+    background-color: #5A5A5A;
+    border-radius: 10px;
+}
+.bar-footer-load {
+    height: 100%;
+    width: 20%;
+    background-color: #C1C1C1;
+    border-radius: 10px;
+    position: relative;
+}
+.point-load {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-0% , -29%);
+    right: 0;
+    display: none;
+}
+.bar-footer-load:hover {
+    background-color: #ADFF2F;
+    cursor: pointer;
+}
+
+.bttn-player .fa-regular.fa-circle-play:hover {
+    scale: 1.5;
+}
+
+.bar-footer-load:hover .point-load {
+    display: block;
+    height: 15px;
+    width: 15px;
+}
 
 
+
+/* Colonna destra Action */
+.action-dx {
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    justify-content: flex-end;
+}
+.action-dx a {
+    color: white;
+    font-size: 15px;
+
+}
+.load-dx {
+    height: 7px;
+    width: 100px;
+    background-color: #5A5A5A;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.load-bar-dx {
+    width: 40% ;
+    height: 100% ;
+    background-color: #C1C1C1;
+    border-radius: 20px;
+    position: relative;
+}
+.colCenFooterXS {
+    display: none;
+}
+
+.load-bar-dx:hover {
+    background-color: #ADFF2F;
+    cursor: pointer;
+}
+
+.load-bar-dx:hover .point-load {
+    display: block;
+    height: 15px;
+    width: 15px;
+}
