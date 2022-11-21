@@ -13,7 +13,7 @@ body{
 
 main{
     flex-grow: 1;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     background-color: #141922;
     overflow-y: scroll;
 
@@ -21,13 +21,13 @@ main{
 
 header{
     height: 80px;
-    width: calc(100% - 230px);
+    /* width: calc(100% - 230px); */
     background-color:rgba(26, 26, 26, 0.8);
     text-align: end;
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
-    z-index: 1;
+    
 }
 
 footer{
@@ -107,12 +107,6 @@ footer{
 
 
 /* Main */
-.main-view {
-    background-color: rgb(20, 25, 34);
-}
-
-
-
 
 /* Header */
 header a {
@@ -123,6 +117,16 @@ header a {
     top: 28px;
 
 }
+
+
+/* Main View */
+.main-view {
+    background-color: rgb(20, 25, 34);
+}
+
+
+
+
 
 
 
