@@ -153,12 +153,17 @@ header a {
 
 }
 
+.row {
+    flex-wrap: wrap;
+}
+
 .card {
-    flex-basis: calc(100% / 6);
-    border: 1px dashed yellow;
+    flex-basis: calc((100% / 6) - 20px);
+    /* border: 1px dashed yellow; */
     min-height: 100px;
     margin-left: 5px;
-    flex-wrap: wrap;
+    text-align: center;
+    
 }
 
 #create-for,#most-played {
@@ -181,6 +186,16 @@ header a {
 
 #most-played h5 {
     padding-bottom: 20px;
+}
+
+.card img {
+    height: 180px;
+    cursor: pointer;
+
+}
+
+.card h4 {
+    margin-top: 8px;
 }
 
 
