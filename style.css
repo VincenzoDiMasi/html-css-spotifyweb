@@ -109,6 +109,10 @@ h5 {
     height: 45px;
 }
 
+.none-desktop {
+    display: none;
+}
+
 #navbar-side ul {
     margin-top: 10px;
 }
@@ -437,6 +441,12 @@ header a:hover {
 
 /* TABLET */
 @media screen and (max-width: 768px) {
+    .sidebar {
+        overflow: auto;
+        font-size: 10px;
+        flex-basis: 208px;
+    }
+
     .navbar-list {
         flex-wrap: wrap;
     }
@@ -454,6 +464,10 @@ header a:hover {
 
 /* MOBILE 1 */
 @media screen and (max-width: 576px) {
+    .sidebar {
+        overflow: auto;
+    }
+
     header a {
         font-size: 12px;
     }   
@@ -506,6 +520,43 @@ header a:hover {
 }
 
 
+/* MOBILE 2 */
+@media screen and (max-width: 425px) {
+   .none {
+    display: none;
+   }
+
+   .none-desktop {
+    display: block;
+   }
+
+   .sidebar {
+    flex-basis: 50px;
+    font-size: 20px;
+   }
+
+   #logo-sidebar img {
+    height: 25px;
+   }
+
+   #sidebar-bottom {
+    margin-top: 315px;
+   }
+
+   #navbar-side ul {
+    margin-top: 0;
+    padding-left: 2px;
+   }
+
+   .main-view-navbar li {
+    font-size: 10px;
+}
+
+.card img {
+    height: 160px;
+}
+}
+
+
 
     
-}
