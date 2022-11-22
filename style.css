@@ -452,6 +452,59 @@ header a:hover {
         margin-right: 15px;
     }
 
+/* MOBILE 1 */
+@media screen and (max-width: 576px) {
+    header a {
+        font-size: 12px;
+    }   
+
+    .main-view-navbar li {
+        font-size: 12px;
+    }
+
+    .card h4 {
+        font-size: 12px;
+    }
+
+    .card h5 {
+        font-size: 9px;
+    }
+
+    .card img {
+        height: 130px;
+    }
+
+    .col-large {
+        flex-basis: 50%;
+    }
+
+    .col-small {
+        flex-basis: 25%;
+    }
+
+    .bttn-player a {
+        font-size: 20px;
+        margin-right: 0;
+        padding-right: 22px;
+    }
+
+    .action-dx a {
+        font-size: 10px;
+        margin: 0;
+        
+    }
+
+    .action-dx {
+        width: 140px;
+        gap: 10px;
+    }
+
+    .action span {
+        display: block;
+    }
+
+}
+
 
 
     
