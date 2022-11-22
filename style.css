@@ -478,6 +478,13 @@ header a {
         margin-right: 15px;
     }
 
+    .cvr:hover .fa-circle-play {
+        display: block;
+        top: 40px;
+        left: 40px;
+        font-size: 30px;
+    }
+
 /* MOBILE 1 */
 @media screen and (max-width: 576px) {
     .sidebar {
@@ -531,6 +538,13 @@ header a {
 
     .action span {
         display: block;
+    }
+
+    .cvr:hover .fa-circle-play {
+        display: block;
+        top: 50px;
+        left: 50px;
+        font-size: 30px;
     }
 
 }
@@ -596,6 +610,14 @@ header a {
         gap: 5px;
         margin-left: 20px;
     }
+
+    .cvr:hover .fa-circle-play {
+        display: block;
+        top: 65px;
+        left: 65px;
+        font-size: 30px;
+    }
+
 
 
 }
