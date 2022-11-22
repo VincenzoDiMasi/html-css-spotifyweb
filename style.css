@@ -550,11 +550,38 @@ header a:hover {
 
    .main-view-navbar li {
     font-size: 10px;
-}
+   }
 
-.card img {
-    height: 160px;
-}
+    .card img {
+     height: 160px;
+    }
+
+    .bttn-player a {
+        font-size: 14px;
+        margin-right: 0;
+        padding-right: 5px;
+    }
+
+    .action-dx .fa-bars {
+        padding-left: 30px;
+        
+    }
+
+    .curr-song {
+        font-size: 15px;
+    }
+
+    .current-song img {
+        height: 40px;
+        margin-top: 12px;
+    }
+
+    .load-player {
+        gap: 5px;
+        margin-left: 20px;
+    }
+
+
 }
 
 
