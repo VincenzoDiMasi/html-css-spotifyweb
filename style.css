@@ -183,8 +183,8 @@ header a {
     margin-right: 25px;
 }
 
-header a:hover {
-    transform: scale(1.2);
+#upgrade:hover {
+    transform: scale(1.5);
 }
 
 
@@ -226,16 +226,29 @@ header a:hover {
 
 }
 
-/* figure:hover i {
-    color: white;
-    font-size: 70px;
+.cvr {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+
+}
+
+.cvr .fa-circle-play {
     position: absolute;
-    bottom: 50%;
-    left: 50%;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    display: none;
+}
+
+.cvr:hover .fa-circle-play {
     display: block;
-    transform: translate(-50% , 50%);
-    cursor: pointer;
-} */
+    top: 65px;
+    left: 65px;
+
+}
+
 
 #create-for,#most-played {
     margin-top: 30px;
@@ -269,6 +282,9 @@ header a:hover {
     margin-top: 8px;
 }
 
+#most-played h4 {
+    padding-bottom: 20px;
+}
 
 /* Footer */
 .col-small {
@@ -383,7 +399,7 @@ header a:hover {
 }
 
 .bttn-player .fa-regular.fa-circle-play:hover {
-    scale: 1.5;
+    transform: scale(1.5);
 }
 
 .bar-footer-load:hover .point-load {
